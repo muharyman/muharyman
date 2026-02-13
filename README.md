@@ -8,9 +8,9 @@
 
 ## 📊 GitHub Stats
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=muharyman&show_icons=true&theme=tokyonight&cache_seconds=1800)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=muharyman&show_icons=true&theme=tokyonight)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=muharyman&layout=compact&theme=tokyonight&cache_seconds=1800)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=muharyman&layout=compact&theme=tokyonight)
 
 ---
 
