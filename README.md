@@ -1,16 +1,22 @@
-## Hi there 👋
+# Hi, I'm Kevin 👋
 
-<!--
-**muharyman/muharyman** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🚀 Software Engineer | Building scalable systems
 
-Here are some ideas to get you started:
+🌍 Based in Berlin
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 📊 GitHub Stats
+
+![Kevin's GitHub stats](https://github-readme-stats.vercel.app/api?username=kevinmuharyman&show_icons=true&theme=tokyonight)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kevinmuharyman&layout=compact&theme=tokyonight)
+
+---
+
+## 📫 Connect With Me
+
+- LinkedIn: https://www.linkedin.com/in/kevinmuharyman
+- Email: muharymank@gmail.com
+
+
