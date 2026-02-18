@@ -6,8 +6,8 @@
 
 ## 🧰 Tech Stack
 **Languages:** TypeScript, JavaScript, Python, Go, Java  
-**Frontend:** React, Next.js, Vue.js, Nuxt.js, Tailwind, ShadcnUI, Playwright
-**Backend:** Node.js, Nest.js, Flask, FastAPI, Gin, Postgres, Redis, ElasticSearch, Mongodb
+**Frontend:** React, Next.js, Vue.js, Nuxt.js, Tailwind, ShadcnUI, Playwright  
+**Backend:** Node.js, Nest.js, Flask, FastAPI, Gin, Postgres, Redis, ElasticSearch, Mongodb  
 **DevOps:** Docker, Kubernetes, AWS, CI/CD
 
 ---
