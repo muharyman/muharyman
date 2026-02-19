@@ -14,8 +14,7 @@
 
 ## 📈 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=muharyman&show_icons=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=muharyman&layout=compact)
+![Stats](./profile/stats.svg)
 
 ---
 
