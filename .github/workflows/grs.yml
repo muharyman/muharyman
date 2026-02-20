@@ -2,7 +2,7 @@ name: Update README cards
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *"   # daily at 00:00 UTC
   workflow_dispatch:
 
 permissions:
@@ -11,25 +11,49 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Ensure output directory exists
         run: mkdir -p profile
 
+      # --- STATS CARD (includes private) ---
       - name: Generate stats card
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true
+          options: >
+            username=${{ github.repository_owner }}
+            &show_icons=true
+            &count_private=true
+            &include_all_commits=true
+            &hide_border=true
           path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
 
+      # --- TOP LANGUAGES CARD (includes private) ---
+      - name: Generate top languages card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: >
+            username=${{ github.repository_owner }}
+            &layout=compact
+            &count_private=true
+            &hide_border=true
+          path: profile/top-langs.svg
+          token: ${{ secrets.PAT_TOKEN }}
+
+      # --- COMMIT ONLY IF CHANGED ---
       - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
           git add profile/*.svg
           git diff --cached --quiet && exit 0
-          git commit -m "Update README cards"
+
+          git commit -m "chore: update README cards"
           git push
