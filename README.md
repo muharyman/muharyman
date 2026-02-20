@@ -12,9 +12,3 @@
 
 ---
 
-## 📈 GitHub Stats
-
-![Stats](./profile/stats.svg)
-
----
-
